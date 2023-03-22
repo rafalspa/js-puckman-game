@@ -13,11 +13,11 @@ const map = [1,1,1,1,1,3,3,3,1,1,1,1,1,
 const game = document.querySelector(".game");
 
 // Sound effects
-let sWalk = new Audio('/sfx/walk.wav');
-let sHurt = new Audio('/sfx/hurt.wav');
-let sPoint = new Audio('/sfx/point.wav');
-let sWin = new Audio('/sfx/win.wav');
-let sLose = new Audio('/sfx/lose.wav');
+let sWalk = new Audio('./sfx/walk.wav');
+let sHurt = new Audio('./sfx/hurt.wav');
+let sPoint = new Audio('./sfx/point.wav');
+let sWin = new Audio('./sfx/win.wav');
+let sLose = new Audio('./sfx/lose.wav');
 
 let keysPressed = 0;
 let startText = document.querySelector(".startText");
