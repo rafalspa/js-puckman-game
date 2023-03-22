@@ -1,0 +1,85 @@
+body {
+    margin: auto auto;
+    background: #000;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 416px;
+    max-height: 416px;
+    min-width: 416px;
+    min-height: 416px;
+    margin: 0;
+    padding: 0px;
+    align-content: center;
+}
+
+.player {    
+    background: yellow;
+    max-width: 28px;
+    max-height: 28px;
+    min-width: 28px;
+    min-height: 28px;
+    border-radius: 28px;
+    margin: 2px;
+   position: absolute;
+   left: 192px;
+   top: 144px;
+}
+
+.wall {
+    background: blue;
+    max-width: 32px;
+    max-height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.black {
+    background: #000;
+    max-width: 32px;
+    max-height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.point {    
+    background: yellow;
+    max-width: 8px;
+    max-height: 8px;
+    min-width: 8px;
+    min-height: 8px;
+    margin: 12px;
+}
+
+.background {
+    background: #191919;
+    max-width: 32px;
+    max-height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.stats, .lives {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 416px;
+    max-height: 32px;
+    min-width: 416px;
+    min-height: 32px;
+    margin-left: 12px;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+.howto {
+    max-width: 416px;
+    max-height: 32px;
+    min-width: 416px;
+    min-height: 32px;
+    margin-left: 12px;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+}
