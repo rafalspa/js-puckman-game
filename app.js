@@ -13,11 +13,11 @@ const map = [1,1,1,1,1,3,3,3,1,1,1,1,1,
 const game = document.querySelector(".game");
 
 // Sound effects
-let sWalk = new Audio('./sfx/walk.wav');
-let sHurt = new Audio('./sfx/hurt.wav');
-let sPoint = new Audio('./sfx/point.wav');
-let sWin = new Audio('./sfx/win.wav');
-let sLose = new Audio('./sfx/lose.wav');
+let sWalk = new Audio('https://rafalspa.github.io/js-puckman-game/sfx/walk.wav');
+let sHurt = new Audio('https://rafalspa.github.io/js-puckman-game/sfx/hurt.wav');
+let sPoint = new Audio('https://rafalspa.github.io/js-puckman-game/sfx/point.wav');
+let sWin = new Audio('https://rafalspa.github.io/js-puckman-game/sfx/win.wav');
+let sLose = new Audio('https://rafalspa.github.io/js-puckman-game/sfx/lose.wav');
 
 let keysPressed = 0;
 let startText = document.querySelector(".startText");
